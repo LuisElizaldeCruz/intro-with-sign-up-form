@@ -49,6 +49,12 @@ body{
     padding: 10px 0;
     color: white;
     background-color: var(--Blue);
+    box-shadow:  0 1px 2px black ;
+}
+
+#btn-descuento:hover{
+    background-color: rgb(131, 131, 236);
+    cursor: pointer;
 }
 
 .formulario{
@@ -73,4 +79,22 @@ body{
     border-radius: 8px;
     background-color: var(--Green);
     color: white;
+    border-color: transparent;
 }
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(53, 161, 53);
+}
+
+.formulario>input{
+    border-style: solid;
+    outline: none;
+    border-color: var(--Grayish-Blue);
+}
+
+.formulario>input:focus:not(#btn){
+    border-color: var(--Dark-Blue);
+}
+
+
