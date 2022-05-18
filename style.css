@@ -121,3 +121,36 @@ body{
     color: red;
 }
 
+@media screen and (max-width: 720px) {
+    .contenedor{
+        flex-direction: column;
+        padding: 10px 0;
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .pt-texto{
+        width: auto;
+        text-align: center;
+        /* padding: 1px 0; */
+        margin-bottom: 20px;
+    }
+
+    .titulo{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    /* #btn-descuento{
+        width: 95%;
+    } */
+
+    .pt-frm{
+        width: auto;
+        margin: auto 0;
+    }
+
+    .formulario{
+        width: auto;
+    }
+}
