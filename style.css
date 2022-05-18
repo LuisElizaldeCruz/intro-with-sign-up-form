@@ -24,6 +24,7 @@ body{
     display: flex;
     padding: 30px 10%;
     margin: 60px auto;
+    width: 75%;
 }
 
 .pt-texto{
@@ -32,6 +33,17 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto 0;
+}
+
+.titulo{
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.descripcion{
+    color: white;
+    font-size: 20px;
 }
 
 
@@ -97,4 +109,15 @@ body{
     border-color: var(--Dark-Blue);
 }
 
+
+.terminos-servicio{
+    color:var(--Red);
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.terminos-servicio>span{
+    color: red;
+}
 
