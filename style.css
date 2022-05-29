@@ -1,33 +1,33 @@
-:root{
+:root {
     /* Primary */
 
---Red: hsl(0, 100%, 74%); 
---Green: hsl(154, 59%, 51%);
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
 
-/* Accent */
+    /* Accent */
 
---Blue: hsl(248, 32%, 49%);
+    --Blue: hsl(248, 32%, 49%);
 
-/* Neutral */
+    /* Neutral */
 
---Dark-Blue: hsl(249, 10%, 26%); 
---Grayish-Blue: hsl(246, 25%, 77%);
+    --Dark-Blue: hsl(249, 10%, 26%);
+    --Grayish-Blue: hsl(246, 25%, 77%);
 }
 
-body{
+body {
     font-size: 16px;
     background-image: url("./images/bg-intro-desktop.png");
     background-color: var(--Red);
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     padding: 30px 10%;
     margin: 60px auto;
     width: 75%;
 }
 
-.pt-texto{
+.pt-texto {
     /* padding: 0 100px; */
     width: 50%;
     display: flex;
@@ -35,19 +35,19 @@ body{
     margin: auto 0;
 }
 
-.titulo{
+.titulo {
     color: white;
     font-size: 4rem;
     margin-bottom: 0px;
 }
 
-.descripcion{
+.descripcion {
     color: white;
     font-size: 20px;
 }
 
 
-.pt-frm{
+.pt-frm {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -56,20 +56,20 @@ body{
     margin: auto 0 auto auto;
 }
 
-#btn-descuento{
+#btn-descuento {
     border-radius: 10px;
     padding: 10px 0;
     color: white;
     background-color: var(--Blue);
-    box-shadow:  0 1px 2px black ;
+    box-shadow: 0 1px 2px black;
 }
 
-#btn-descuento:hover{
+#btn-descuento:hover {
     background-color: rgb(131, 131, 236);
     cursor: pointer;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -77,15 +77,16 @@ body{
     gap: 10px;
     margin-top: 20px;
     width: 300px;
-    height: auto;/*el formulario crecera al agregar los mensajes de error*/
+    height: auto;
+    /*el formulario crecera al agregar los mensajes de error*/
 }
 
-.entrada{
+.entrada {
     padding: 10px 0;
     /* margin-top: 10px; */
 }
 
-#btn{
+#btn {
     padding: 10px 0;
     margin-top: 20px;
     border-radius: 8px;
@@ -94,59 +95,66 @@ body{
     border-color: transparent;
 }
 
-#btn:hover{
+#btn:hover {
     cursor: pointer;
     background-color: rgb(53, 161, 53);
 }
 
-.formulario>input{
+.formulario>input {
     border-style: solid;
     outline: none;
     border-color: var(--Grayish-Blue);
 }
 
-.formulario>input:focus:not(#btn){
+.formulario>input:focus:not(#btn) {
     border-color: var(--Dark-Blue);
 }
 
 
-.terminos-servicio{
-    color:var(--Red);
+.terminos-servicio {
+    color: var(--Red);
     font-size: 10px;
     text-align: center;
     margin-top: 1px;
 }
 
-.terminos-servicio>span{
+.terminos-servicio>span {
     color: red;
 }
 
+#advertencia {
+    color: red;
+    text-align: end;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+}
+
 @media screen and (max-width: 720px) {
-    .contenedor{
+    .contenedor {
         flex-direction: column;
         padding: 10px 0;
         margin: 20px auto;
         width: 90%;
     }
 
-    .pt-texto{
+    .pt-texto {
         width: auto;
         text-align: center;
         /* padding: 1px 0; */
         margin-bottom: 20px;
     }
 
-    .titulo{
+    .titulo {
         font-size: 35px;
         margin-top: 10px;
     }
-    
-    .pt-frm{
+
+    .pt-frm {
         width: auto;
         margin: auto 0;
     }
 
-    .formulario{
+    .formulario {
         width: auto;
     }
 }
