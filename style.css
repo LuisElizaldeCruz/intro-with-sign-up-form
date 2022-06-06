@@ -121,13 +121,29 @@ body {
 .terminos-servicio>span {
     color: red;
 }
-
+/*
 #advertencia {
     color: red;
     text-align: end;
     margin: 0 0 10px 0;
     font-size: 15px;
 }
+*/
+
+
+
+.estilo{
+    color: red;
+    text-align: end;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    
+}
+
+.visible0, .visible1, .visible2, .visible3{
+    display: none;
+}
+
 
 @media screen and (max-width: 720px) {
     .contenedor {

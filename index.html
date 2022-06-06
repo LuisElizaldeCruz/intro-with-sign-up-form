@@ -30,10 +30,14 @@
         Try it free 7 days then $20/mo. thereafter
       </button>
       <form class="formulario" id="formulario">
-        <input type="text" name="name" placeholder="primer nombre" class="entrada nombre">
+        <input type="text" name="nombre" placeholder="primer nombre" class="entrada nombre">
+        <label class="visible0 estilo" id="advertencia1">El campo nombre no debe de estar vacio</label>
         <input type="text" name="lastName" placeholder="apellido" class="entrada apellido">
+        <label class="visible1 estilo" id="advertencia2">El campo apellido no debe de estar vacio</label>
         <input type="text" name="mail" placeholder="correo" class="entrada correo">
-        <input type="text" name="password" placeholder="contraseña" class="entrada password">
+        <label class="visible2 estilo" id="advertencia3">El campo correo no debe de estar vacio</label>
+        <input type="password" name="password" placeholder="contraseña" class="entrada password">
+        <label class="visible3 estilo" id="advertencia4">El campo contraseña no debe de estar vacio</label>
         <input type="submit" value="Claim your free trial" id="btn">
 
         <p class="terminos-servicio">By clicking the button, you are agreeing to our <span> Terms and Services</span>
